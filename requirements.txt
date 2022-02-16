@@ -1,0 +1,5 @@
+strangeworks
+strangeworks-qiskit
+strangeworks-braket
+strangeworks-rigetti
+ipykernel
