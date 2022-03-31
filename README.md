@@ -45,3 +45,5 @@ Oneliner for current commit against main
 ```bash
 nbdiff-web $(git rev-parse main) $(git rev-parse HEAD) examples/introduction.ipynb
 ```
+
+Someday maybe automate building a diff and displaying it
