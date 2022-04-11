@@ -9,8 +9,9 @@ A collection of example projects that can be run utilizing the Strangeworks SDK 
 ```
 python -m venv venv
 . venv/bin/activate
-pip install -U pip
-pip install -r requirements.txt
+python -m pip install -U pip
+python -m pip install -r requirements.txt
+python -m jupyter notebook
 ```
 
 ## Index

@@ -3,3 +3,4 @@ strangeworks-qiskit
 strangeworks-braket
 strangeworks-rigetti
 ipykernel
+jupyter
