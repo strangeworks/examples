@@ -21,7 +21,6 @@ python -m jupyter notebook
 Here are some example notebooks that will get you started using the strangeworks platform.
 
 #### [introduction](examples/introduction.ipynb)
-#### [ibmq-example](examples/ibmq-example.ipynb)
 #### [aws-example](examples/aws-example.ipynb)
 #### [rigetti-pyquil](examples/rigetti-pyquil.ipynb)
 #### [rigetti-qiskit](examples/rigetti-qiskit.ipynb)
