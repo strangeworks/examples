@@ -2,5 +2,6 @@ strangeworks
 strangeworks-qiskit
 strangeworks-braket
 strangeworks-rigetti
+strangeworks-annealing
 ipykernel
 jupyter
