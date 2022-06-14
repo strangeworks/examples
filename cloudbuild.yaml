@@ -11,11 +11,11 @@ steps:
     args:
       - '-c'
       - >
-        tar -C /workspace -czvf scripts."${BUILD_ID:0:7}".tar.gz scripts
+        tar -C /workspace -czvf scripts.$BUILD_ID.tar.gz scripts
     entrypoint: bash
     id: Tar extracted scripts
 artifacts:
   objects:
     location: 'gs://sw_testing_artifacts/notebooks'
     paths:
-      - /workspace/scripts."${BUILD_ID:0:7}".tar.gz
+      - /workspace/scripts.$BUILD_ID.tar.gz
