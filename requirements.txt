@@ -1,0 +1,2 @@
+strangeworks-optimization
+ipykernel
