@@ -1,9 +1,0 @@
-steps:
-  - name: python
-    entrypoint: bash
-    args:
-      - '-c'
-      - |
-        pipx install nbdime
-        pipx inject nbdime jupyter
-        nbdime config-git --enable --global
