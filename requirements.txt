@@ -1,3 +1,5 @@
 strangeworks-optimization
+strangeworks-qiskit-runtime
+strangeworks-braket
 ipykernel
 dotenv

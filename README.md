@@ -7,17 +7,21 @@ A collection of example projects that can be run utilizing the Strangeworks SDK 
 ## Quickstart
 
 ```
-python -m venv venv
-. venv/bin/activate
-python -m pip install -U pip
-python -m pip install -r requirements.txt
-python -m jupyter notebook
+python -m venv .venv
+source .venv/bin/activate
+pip install -U pip
+pip install -r requirements.txt
+jupyter notebook
 ```
 
 ## Index
 
-### Examples
+### [Optimization](examples/optimization)
 
-Here are some example notebooks that will get you started using the Strangeworks platform.
+#### [NEC](examples/optimization/nec)
 
-#### [Optimization](examples/optimization.ipynb)
+### [Quantum](examples/quantum)
+
+#### [Qiskit Runtime](examples/quantum/qiskit)
+
+#### [Amazon Braket](examples/quantum/braket)
